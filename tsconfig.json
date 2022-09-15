@@ -16,10 +16,12 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "src",
+    "incremental": true,
     "paths": {
       "@/*": ["*"]
     }
   },
   "include": ["src"],
+  "exclude": ["node_modules","build","scripts","functions"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
