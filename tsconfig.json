@@ -21,7 +21,11 @@
       "@/*": ["*"]
     }
   },
-  "include": ["src"],
+  "types": ["vitest/globals"],
+  "include": [
+    "src",
+    "test"
+  ],
   "exclude": ["node_modules","build","scripts","functions"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
