@@ -27,6 +27,8 @@ describe("AuthProvider", async () => {
       undefined,
     ]);
     render(<TestComponent />);
+    waitFor(() =>
+      expect(screen.getByText("てすたろうでログインできました")).toBeTruthy()
+    );
   });
-  waitFor(() => expect(screen.getByText("てすたろうでログインできました")).toBeTruthy());
 });
