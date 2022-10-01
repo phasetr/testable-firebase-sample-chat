@@ -21,9 +21,12 @@ describe("AuthProvider", async () => {
   });
 
   it("can get a context data", async () => {
-    useAuthStateMock.mockReturnValue([{uid: "test-user-uid", displayName: "てすたろう"} as User,
-      true, undefined]);
+    useAuthStateMock.mockReturnValue([
+      { uid: "test-user-uid", displayName: "てすたろう" } as User,
+      true,
+      undefined,
+    ]);
+    render(<TestComponent />);
   });
-  render(<TestComponent/>);
   waitFor(() => expect(screen.getByText("てすたろうでログインできました")).toBeTruthy());
 });
