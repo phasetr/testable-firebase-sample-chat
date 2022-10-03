@@ -1,5 +1,5 @@
 import {Factory} from "fishery";
-import {Message} from "@/types/messages";
+import {Message} from "@/types/message";
 import {Timestamp} from "firebase/firestore";
 
 export const messageFactory = Factory.define<Message>(
