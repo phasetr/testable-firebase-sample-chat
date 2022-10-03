@@ -14,3 +14,4 @@
     - `AssertionError: expected "spy" to be called with arguments:  [ { uid: 'test-uid', …(2) } ]expected "spy" to be called with arguments: [ { uid: 'test-uid', …(2) } ]`
 - P.58, `describe(’AuthContext’, async () => {` -> `describe('AuthProvider', async () => {`?
 - P.60, 最初のコード部分、`describe("AuthContext", async () => {` -> `describe("AuthProvider", async () => {`?
+- P.64, ` import ’virtual:windi.css’;` ここまで`windi.css`の話は一度も出ていないはず.
