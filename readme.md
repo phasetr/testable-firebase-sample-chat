@@ -15,3 +15,5 @@
 - P.58, `describe(’AuthContext’, async () => {` -> `describe('AuthProvider', async () => {`?
 - P.60, 最初のコード部分、`describe("AuthContext", async () => {` -> `describe("AuthProvider", async () => {`?
 - P.64, ` import ’virtual:windi.css’;` ここまで`windi.css`の話は一度も出ていないはず.
+- P.66, `types/user.ts` -> `src/types/user.ts`
+- P.66, `types/message.ts` -> `src/types/message.ts`
